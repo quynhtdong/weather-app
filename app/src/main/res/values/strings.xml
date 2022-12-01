@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="location_permission_granted">Location permission is granted.</string>
+    <string name="location_permission_denied">Location permission was denied.</string>
+    <string name="location_permission_required">Location permission is required to show the weather
+        information for your current location.</string>
+
+    <string name="base_url">https://api.openweathermap.org/data/</string>
+    <string name="appid">1fcd1f7667fd34bb1090a17a561b6eca</string>
+
+    <string name="no_data">--</string>
+    <string name="condition">weather condition</string>
+    <string name="temperature">%.0fÂ°</string>
+    <string name="description">%s\nH: %.0fÂ° L: %.0fÂ°</string>
+    <string name="sun_title">SUN</string>
+    <string name="sun_data">Sunrise: %s\nSunset: %s</string>
+    <string name="wind_title">WIND</string>
+    <string name="wind_data">Speed: %.0f mph\nDirection: %dÂ°\nGust: %.0f mph</string>
+    <string name="precipitation_title">PRECIPITATION</string>
+    <string name="precipitation_data">Humidity: %d%%\nCloudiness: %d%%</string>
+    <string name="rain">%.2f\" rain in last 1h\n%.2f\" rain in last 3h\n</string>
+    <string name="snow">%.2f" snow in last 1h\n%.2f" snow in last 3h\n</string>
+    <string name="other_title">OTHER</string>
+    <string name="other_data">Feels Like: %.0fÂ°\nVisibility: %.0f mi\nPressure: %.2f inHg</string>
+    <string name="connecting">Connecting...</string>
+    <string name="updated">Updated %s</string>
+</resources>
